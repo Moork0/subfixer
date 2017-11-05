@@ -2,7 +2,7 @@
 import sys
 print("Subtitle Fixer Ver 0.2")
 args = sys.argv
-if len(args) < 1:
+if len(args) < 2:
     print('Usage : python subfixer.py "subtitle.srt"\n')
 presub = args[1]
 orgsub = open(presub, 'r', encoding='latin').read().encode('latin', errors='replace').decode('cp1256')
