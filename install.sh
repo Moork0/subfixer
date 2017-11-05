@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo chmod +x subfixer.py;
 sudo cp subfixer.py /usr/bin/subfixer;
+sudo chmod +x /usr/bin/subfixer;
